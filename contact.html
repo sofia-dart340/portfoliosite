@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Sofia's Portfolio</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div id="container">
+			
+		<a href="index.html"><img class="logo" src="pictures/logo.png" alt="logo"></a>  
+			
+        <header>
+			<nav>
+                <ul class="nav_links">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="contact.html"><button>Contact</button></a>
+        </header>
+            
+        <h1 id="contactheading">Contact Form</h1>
+
+        <div id="form">
+                
+                <form id="contactform">
+                    <label for="fname">First name</label><br>
+                    <input type="text" class="response" id="fname" required><br>
+                    <label for="lname">Last name</label><br>
+                    <input type="text" class="response" id="lname" required><br>
+                    <label for="email">Email</label><br>
+                    <input type="text" class="response" id="email" placeholder="abc@xyz.com" required><br>
+                    <label for="message">Message</label><br>
+                    <textarea class="response" id="message" cols="40" rows="10" required></textarea><br>
+                    
+                    <button id="submit" type="submit">Submit</button>
+                </form>
+       </div>
+			
+
+        
+        
+        </div>
+        
+        
+        
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+		
+		<script>
+			
+			$("#contactform").on("submit", function(){
+               event.preventDefault();
+                let response = $(".response").val();
+                console.log(response);
+				$("#contactheading")
+					.empty()
+					.text("Thank you for your Message!");
+				$("#contactform")
+					.empty()
+					.text("You will hear back from me soon!")
+            })
+			
+		</script>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+
+</html>

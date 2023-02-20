@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Sofia's Portfolio</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div id="container">
+			
+        <a href="index.html"><img class="logo" src="pictures/logo.png" alt="logo"></a>
+			
+        <header>
+        
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="contact.html"><button id="contactbutton">Contact</button></a>
+        </header>
+        
+        <img id="title" src="pictures/homeheading.png" alt="title">    
+            
+        <table class="imagegallery">
+            <tbody>
+                <tr>
+					
+                    <td>
+						<button data-overlay-target="#overlay" class="openbutton">
+							<div class="hoverimg">
+							<img class="imgs" src="pictures/hauntedhouse.png" alt="hauntedhouse" width="213px">
+							<div class="hoverbody">
+								<div class="hovertitle">Haunted House </div>
+						</div>
+						</div>
+						</button>
+					</td>
+					
+                    <td>
+						<button data-overlay-target="#overlay2" class="openbutton">
+							<div class="hoverimg">
+							<img class="imgs" src="pictures/mariokart.png" alt="mariokart" width="213px">
+							<div class="hoverbody">
+								<div class="hovertitle">Mario Kart</div>
+						</div>
+						</div>
+						</button>
+					</td>
+					
+                    <td>
+						<button data-overlay-target="#overlay3" class="openbutton">
+							<div class="hoverimg">
+							<img class="imgs" src="pictures/tiedye.png" alt="tiedye" width="213px">
+							<div class="hoverbody">
+								<div class="hovertitle">Tie Dye-Versity </div>
+						</div>
+						</div>
+						</button>
+					</td>
+                </tr>
+				
+				
+                <tr>
+                    <td>
+						<button data-overlay-target="#overlay4" class="openbutton">
+							<div class="hoverimg">
+							<img class="imgs" src="pictures/wings.png" alt="coloringpage" width="213px">
+							<div class="hoverbody">
+								<div class="hovertitle">Wings</div>
+						</div>
+						</div>
+						</button>
+					</td>
+					
+                    <td>
+						<button data-overlay-target="#overlay5" class="openbutton">
+							<div class="hoverimg">
+							<img class="imgs" src="pictures/dropdead.png" alt="dropdead" width="213px">
+							<div class="hoverbody">
+								<div class="hovertitle">Drop Dead! Show Poster</div>
+						</div>
+						</div>
+						</button>
+					</td>
+					
+                    <td>
+						<button data-overlay-target="#overlay6" class="openbutton">
+							<div class="hoverimg">
+							<img class="imgs" src="pictures/pies.png" alt="heart" width="213px">
+							<div class="hoverbody">
+								<div class="hovertitle">Pies</div>
+						</div>
+						</div>
+						</button>
+					</td>
+                </tr>
+				
+				
+                <tr>
+                    <td>
+						<button data-overlay-target="#overlay7" class="openbutton">
+							<div class="hoverimg">
+							<img class="imgs" src="pictures/eurostyle.jpg" alt="eurostyle" width="213px">
+							<div class="hoverbody">
+								<div class="hovertitle">Eurostyle Typography Poster</div>
+						</div>
+						</div>
+						</button>
+					</td>
+					
+                    <td>
+						<button data-overlay-target="#overlay8" class="openbutton">
+							<div class="hoverimg">
+							<img class="imgs" src="pictures/robotcow.png" alt="robocow" width="213px">
+							<div class="hoverbody">
+								<div class="hovertitle">Robot Cow 3D Model</div>
+						</div>
+						</div>
+						</button>
+					</td>
+					
+                    <td>
+						<button data-overlay-target="#overlay9" class="openbutton">
+							<div class="hoverimg">
+							<img class="imgs" src="pictures/mavericks.png" alt="blindcontour" width="213px">
+							<div class="hoverbody">
+								<div class="hovertitle">Mavericks 2023</div>
+						</div>
+						</div>
+						</button>
+					</td>
+                </tr>
+				
+                <tr>
+                    <td colspan="2">
+						<button data-overlay-target="#overlay10" class="openbutton">
+							<div id="hoverimgroom">
+							<img class="imgs" src="pictures/room.png" alt="room" width="446px">
+							<div class="hoverbody">
+								<div class="hovertitle">Dream Bedroom Design 3D Model</div>
+						</div>
+						</div>
+						</button>
+					</td>
+					<td>
+						<button data-overlay-target="#overlay11" class="openbutton">
+							<div class="hoverimg">
+							<img class="imgs" src="pictures/themoon.jpg" alt="coloringpage" width="213px">
+							<div class="hoverbody">
+								<div class="hovertitle">Tarot Card Coloring Pages</div>
+						</div>
+						</div>
+						</button>
+					</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        
+        
+        <div class="overlay" id="overlay">
+            <div class="overlayheader">
+                <button data-close-button class="closebtn">&times;</button>
+            </div>
+            
+            <div class="overlayimage">
+                <img src="pictures/hauntedhouse.png" alt="hauntedhouse" width="300px">
+            </div>
+            
+            <div class="overlaybody">
+                <div class="overlaytitle">
+                    <h2>Haunted House Flyer</h2>
+                </div>
+                    <p>&#x2022; October 2022 <br><br>
+						&#x2022; Promotional flyer for the Masque of La  Salle’s annual Haunted House<br><br>
+						&#x2022; Programs used: Illustrator and Procreate</p>
+            </div>
+        </div>
+            
+        <div id="overlaybackground"></div>
+            
+            
+        <div class="overlay" id="overlay2">
+            <div class="overlayheader">
+                <button data-close-button class="closebtn">&times;</button>
+            </div>
+            
+            <div class="overlayimage">
+                <img src="pictures/mariokart.png" alt="pies" width="300px">
+            </div>
+            
+            <div class="overlaybody">
+                <div class="overlaytitle">
+                    <h2>Mario Kart Flyer</h2>
+                </div>
+                    <p>&#x2022; January 2023 <br><br>
+						&#x2022; Promotional flyer for the Late Night La Salle’s Mario Kart Tournament <br><br>
+						&#x2022; Programs used: Illustrator and Photoshop</p>
+            </div>
+        </div>
+            
+  
+            
+        <div class="overlay" id="overlay3">
+            <div class="overlayheader">
+                <button data-close-button class="closebtn">&times;</button>
+            </div>
+            
+            <div class="overlayimage">
+                <img src="pictures/tiedye.png" alt="tiedye" width="300px">
+            </div>
+            
+            <div class="overlaybody">
+                <div class="overlaytitle">
+                    <h2>Tie Dye-Versity Flyer</h2>
+                </div>
+                    <p>&#x2022; September 2022 <br><br>
+						&#x2022; Promotional flyer for a collaborative Late Night La Salle and Alliance event<br><br>
+						&#x2022; Programs used: Illustrator and Procreate
+					</p>
+            </div>
+        </div>
+			
+		<div class="overlay" id="overlay4">
+            <div class="overlayheader">
+                <button data-close-button class="closebtn">&times;</button>
+            </div>
+            
+            <div class="overlayimage">
+                <img src="pictures/wings.png" alt="wings" width="300px">
+            </div>
+            
+            <div class="overlaybody">
+                <div class="overlaytitle">
+                    <h2>Wings Flyer</h2>
+                </div>
+                    <p>&#x2022; January 2023 <br><br>
+						&#x2022; Promotional flyer for Late Night La Salle's Wings event<br><br>
+						&#x2022; Program used: Illustrator</p>
+            </div>
+        </div>
+            
+         <div class="overlay" id="overlay5">
+            <div class="overlayheader">
+                <button data-close-button class="closebtn">&times;</button>
+            </div>
+            
+            <div class="overlayimagebig">
+                <img src="pictures/dropdead.png" alt="dropdead" width="275px">
+            </div>
+            
+            <div class="overlaybody">
+                <div class="overlaytitle">
+                    <h2>Drop Dead! Show Poster</h2>
+                </div>
+                    <p>&#x2022; October 2022 <br><br>
+						&#x2022; Promotional poster designed for The Masque of La Salle’s performance of <em>Drop Dead!</em> <br><br>
+						&#x2022; Programs used: Illustrator and Photoshop
+					</p>
+            </div>
+        </div>   
+            
+        <div class="overlay" id="overlay6">
+            <div class="overlayheader">
+                <button data-close-button class="closebtn">&times;</button>
+            </div>
+            
+            <div class="overlayimage">
+                <img src="pictures/pies.png" alt="pies" width="300px">
+            </div>
+            
+            <div class="overlaybody">
+                <div class="overlaytitle">
+                    <h2>Pies Flyer</h2>
+                </div>
+                    <p>&#x2022; November 2022 <br><br>
+						&#x2022; Promotional flyer for the Late Night La Salle’s Pie event. <br><br>
+						&#x2022; Programs used: Illustrator and Procreate</p>
+            </div>
+        </div>    
+            
+        <div class="overlay" id="overlay7">
+            <div class="overlayheader">
+                <button data-close-button class="closebtn">&times;</button>
+            </div>
+            
+            <div class="overlayimage">
+                <img src="pictures/eurostyle.jpg" alt="eurostyle" width="300px">
+            </div>
+            
+            <div class="overlaybody">
+                <div class="overlaytitle">
+                    <h2>Eurostyle Typography Poster</h2>
+                </div>
+                    <p>&#x2022; May 2021 <br><br>
+						&#x2022; Created for a Typography class <br><br>
+						&#x2022; Assignment was to create a research poster on a typeface <br><br>
+						&#x2022; Program used: Illustrator</p>
+            </div>
+        </div>    
+            
+        <div class="overlay" id="overlay8">
+            <div class="overlayheader">
+                <button data-close-button class="closebtn">&times;</button>
+            </div>
+            
+            <div class="overlayimagecow">
+                <img src="pictures/robotcow.png" alt="robotcow" width="300px">
+            </div>
+            
+            <div class="overlaybody">
+                <div class="overlaytitle">
+                    <h2>Robot Cow 3D Model</h2>
+                </div>
+                    <p>&#x2022; January-March 2022 <br><br>
+						&#x2022; Created for 3D Modeling/Animation class. <br><br>
+						&#x2022; Assignment was to design a robot. <br><br>
+						&#x2022; Program used: Blender
+					</p>
+            </div>
+        </div>    
+            
+        <div class="overlay" id="overlay9">
+            <div class="overlayheader">
+                <button data-close-button class="closebtn">&times;</button>
+            </div>
+            
+            <div class="overlayimagebig">
+                <img src="pictures/mavericks.png" alt="blindcontour" width="275px">
+            </div>
+            
+            <div class="overlaybody">
+                <div class="overlaytitle">
+                    <h2>Mavericks 2023 Show Poster</h2>
+                </div>
+                    <p>&#x2022; February 2023 <br><br>
+						&#x2022; Promotional Flyer for The Masque of La Salle's performance of Mavericks <br><br>
+						&#x2022; Programs used: Illustrator, Photoshop, and Procreate</p>
+            </div>
+        </div>    
+            
+        <div class="overlay" id="overlay10">
+            <div class="overlayheader">
+                <button data-close-button class="closebtn">&times;</button>
+            </div>
+            
+            <div class="overlayimageroom">
+                <img src="pictures/room.png" alt="room" width="375px">
+            </div>
+            
+            <div class="overlaybodyroom">
+                <div class="overlaytitle">
+                    <h2>Dream Bedroom Design 3D Model</h2>
+                </div>
+                    <p>&#x2022; Spring 2022 <br><br>
+						&#x2022; Created for 3D Modeling/Animation class. <br><br>
+						&#x2022; This was the final assignment. She decided to create an environment of her dream bedroom. <br><br>
+						&#x2022; Program used: Blender</p>
+            </div>
+        </div>    
+            
+        <div class="overlay" id="overlay11">
+            <div class="overlayheader">
+                <button data-close-button class="closebtn">&times;</button>
+            </div>
+            
+            <div class="overlayimage">
+                <img src="pictures/themoon.jpg" alt="themoon" width="300px">
+            </div>
+            
+            <div class="overlaybody">
+                <div class="overlaytitle">
+                    <h2>Tarot Card Coloring Page</h2>
+                </div>
+                    <p>&#x2022; April/May 2022 <br><br>
+						&#x2022; Final Project for a Digital Drawing class. <br><br>
+						&#x2022; Had to create adult coloring book pages. <br><br>
+						&#x2022; Used custom made photoshop brushes for repeated objects. <br><br>
+						&#x2022; Programs used: Photoshop and Procreate</p>
+            </div>
+        </div>    
+            
+        
+        
+        </div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+
+</html>
